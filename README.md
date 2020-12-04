@@ -7,7 +7,7 @@ You can run app with docker or without it
 
 * Install [docker](https://docs.docker.com/engine/install/) if you have not done it yet
 * Go to the project root folder 
-* Build docker image `docker build --tag news-api`
+* Build docker image `docker build --tag news-api .`
 * Run docker image `docker run -p 3001:3001 -e PORT=3001 -d news-api`
 * Application is running on http://localhost:3001
 
